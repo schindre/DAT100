@@ -1,0 +1,69 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class obligoppgaver {
+    public static void main(String[] args) {
+    oppgave4();
+    oppgave5();
+    
+   }
+    public static void oppgave4() {
+    	Scanner in = new Scanner(System.in);
+    	System.out.println("skriv inn din bruttoinntekt i kr:");
+    	int inntekt = in.nextInt();
+    	if (inntekt <= 164100) {
+    		System.out.println("inntekt er for lav til å ha en sats ");
+    	}
+    	else if (inntekt <= 230950) {
+    		System.out.println("innekten din er av trinn 1 og har en sats på 0.93%");
+    	}
+    	else if (inntekt <= 580651) {
+    		System.out.println("innekten din er av trinn 2 og har en sats på 2.41%");
+    	}
+    	else if (inntekt <= 934050) {
+    		System.out.println("innekten din er av trinn 3 og har en sats på 11.52%");
+    	}
+    	else {
+    		System.out.println("innekten din er av trinn 4 og har en sats på 14.52%");
+    	}
+    	
+    }
+    public static void oppgave5() {
+    	Scanner in = new Scanner(System.in);
+    	List<String> poengStrliste = new ArrayList<>();
+    	List<Integer> Poengliste =new ArrayList<();>
+    	
+    	System.out.println("hvor mange elever vil du evaluere?:");
+    	int elever = in.nextInt();
+    	System.out.println ("skriv inn poengsummene til elevene på følgende format '50,40,30.. etc': ");
+        String poengsumtilelev = in.next();
+    	poengliste = Arrays.asList(poengsumtilelev.split(","));
+    	for (String s : poengStrliste) Poengliste.add(Integer.valueOf(s));
+    	
+    	
+    	for (int i = 0; i < Poengliste.size() ; i++) {
+   
+    	}	
+    	int poeng = in.nextInt();
+    	if (poeng <= 39) {
+    		System.out.println("karakter: F");
+    	}
+    	else if (poeng <= 49) {
+    		System.out.println("karakter: E");
+    	}
+    	else if (poeng <= 59) {
+    		System.out.println("karakter: D");
+    	}
+    	else if (poeng <= 79) {
+    		System.out.println("karakter: C");
+    	}
+    	else if (poeng <= 89) {
+    		System.out.println("karakter: B");
+    	}
+    	else {
+    		System.out.println("karakter: A");
+    	}
+    }
+}

@@ -1,0 +1,25 @@
+INDEX VERSION 1.131+C:\Users\sindre johan\eclipse-workspace\DAT100\.metadata\.plugins\org.eclipse.jdt.core
+2423010290.index
+2698354073.index
+1971064342.index
+3325134034.index
+156252885.index
+3062781818.index
+4023233337.index
+1994587852.index
+3053055732.index
+2109232623.index
+102149413.index
+4138387141.index
+2099212561.index
+2898761814.index
+1526800625.index
+928521727.index
+2027455292.index
+743675228.index
+3613721879.index
+2065576991.index
+3124234936.index
+337574139.index
+1233215035.index
+2646339642.index
